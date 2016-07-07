@@ -15,5 +15,7 @@
 #include "gtest/gtest.h"
 
 TEST(FactorialTest, Negative) {
+  auto i = 10;
   EXPECT_EQ(1, 1);
+  printf("the data is %d\n", i);
 }
